@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: sy3158
+    url: jdbc:mysql://localhost:3306/course?useUnicode=true&characterEncoding=utf8&useSSL=false
+mybatis-plus:
+  type-aliases-package: cn.edu.zust.se.dto
+  mapper-locations: classpath:mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto # ID 主键自增
+      field-strategy: not_empty
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
