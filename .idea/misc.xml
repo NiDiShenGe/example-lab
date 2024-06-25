@@ -6,7 +6,14 @@
       <list>
         <option value="$PROJECT_DIR$/design-patterns/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-plus-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/commerce-architecture/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/commerce-architecture/commerce-dependencies/commerce-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/commerce-architecture/commerce-dependencies/commerce-framwork/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">

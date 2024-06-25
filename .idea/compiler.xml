@@ -8,10 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-plus-demo" />
+        <module name="commerce-module-order" />
+        <module name="commerce-module-system-api" />
+        <module name="commerce-module-member" />
+        <module name="commerce-module-pay" />
+        <module name="commerce-module-product" />
+        <module name="commerce-common" />
+        <module name="commerce-module-system-biz" />
+        <module name="commerce-gateway" />
+        <module name="commerce-spring-boot-starter-mybatis" />
         <module name="design-patterns" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="commerce-framwork" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-dependencies/commerce-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-dependencies/commerce-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-dependencies/commerce-framwork/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-dependencies/commerce-framwork/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-dependencies/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-dependencies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-framework/commerce-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-framework/commerce-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-framework/commerce-spring-boot-starter-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-framework/commerce-spring-boot-starter-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-member/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-pay/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-pay/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-system/commerce-module-system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-system/commerce-module-system-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-system/commerce-module-system-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-system/commerce-module-system-biz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/commerce-module-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commerce-architecture/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-patterns/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/design-patterns/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-plus-demo/src/main/java" charset="UTF-8" />
