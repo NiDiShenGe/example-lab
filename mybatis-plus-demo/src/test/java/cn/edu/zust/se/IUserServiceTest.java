@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.List;
+
 /**
  * @Author: ShenYi
  * @Date: 2024-06-24-21:07
@@ -25,5 +27,10 @@ public class IUserServiceTest {
         user.setPassword("12345678");
         user.setRealName("李豪");
         userService.save(user);
+    }
+    @Test
+    public void testQuery(){
+        List<User> userList = userService.list();
+        userList.forEach(System.out::println);
     }
 }
