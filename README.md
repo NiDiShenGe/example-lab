@@ -92,4 +92,27 @@ private Boolean deleted;
 
 ​		
 
-​		
+### 3.Lombok
+
+- `@NoArgsConstructor`：自动生成无参构造方法。
+
+- `@AllArgsConstructor`：自动生成全参构造方法。
+
+- `@Data`：结合了 `@Getter`、`@Setter`、`@ToString`、`@EqualsAndHashCode` 的功能，简化了实体类的编写。
+
+- `@Builder` ：可以自动生成一个建造者模式相关的代码，使得对象的构建更加简洁和易读。
+
+  ```Java
+  @Builder
+  public class Person {
+      private String name;
+      private int age;
+      private String address;
+  }
+  Person person = Person.builder()
+                        .name("张三")
+                        .age(25)
+                        .address("北京")
+                        .build();
+  ```
+
