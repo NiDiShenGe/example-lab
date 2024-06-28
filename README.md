@@ -115,4 +115,20 @@ private Boolean deleted;
                         .address("北京")
                         .build();
   ```
+  
+- @SneakyThrows ：用于在方法上自动添加异常处理。它的作用是在方法体中自动捕获并处理异常，将异常转换为非受检异常（Unchecked Exception）并抛出。简化代码，避免在方法体中显式地编写 try-catch 块来处理异常。
 
+  ```Java
+  public class Example {
+      @SneakyThrows
+      public void doSomething() {
+          // 可能会抛出受检异常的代码
+      }
+  }
+  ```
+
+  
+
+### 4.JSON（主要以jackson为主）
+
+json是一个字符串。jsonNode是一个对象，jsonNode中都是键值对形式，可以根据Key取出对应的值。jsonObject是一个对象。

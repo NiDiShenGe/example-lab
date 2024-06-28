@@ -17,6 +17,7 @@
         <module name="commerce-module-system-biz" />
         <module name="commerce-gateway" />
         <module name="commerce-spring-boot-starter-mybatis" />
+        <module name="jackson-demo" />
         <module name="design-patterns" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jackson-demo" options="-parameters" />
       <module name="mybatis-plus-demo" options="-parameters" />
     </option>
   </component>
